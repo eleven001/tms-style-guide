@@ -56,27 +56,28 @@ module.exports = {
         link: '/css/'
       },
       {
-        text: 'Git规范',
+        text: 'Git工作流',
         link: '/git/'
       }
     ],
     sidebar: {
       '/js/': [{
-        title: '文章列表',
+        title: '规范列表',
         collapsable: false,
         children: [
-          ''
+          '',
+          'vue'
         ]
       }],
       '/css/': [{
-        title: '文章列表',
+        title: '规范列表',
         collapsable: false,
         children: [
           ''
         ]
       }],
       '/git/': [{
-        title: '文章列表',
+        title: '工作流列表',
         collapsable: false,
         children: [
           ''

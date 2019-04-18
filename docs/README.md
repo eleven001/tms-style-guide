@@ -8,7 +8,7 @@ features:
   details:  贴近 JS 和 Vue 社区最佳实践的规范。
 - title: CSS 规范
   details:  贴近 CSS 社区最佳实践的规范。
-- title: Git 规范
+- title: Git 工作流
   details:  前端团队 Git 工作流。
 
 footer: MIT Licensed | Copyright © 2018-present Pet
