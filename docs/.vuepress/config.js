@@ -41,7 +41,7 @@ module.exports = {
     // 默认是 GitHub. 同时也可以是一个完整的 GitLab URL
     repo: 'Pets-web/tms-style-guide',
     // 假如文档不是放在仓库的根目录下：
-    docsDir: 'tms-style-guide',
+    docsDir: 'docs',
     // 默认是 false, 设置为 true 来启用
     editLinks: true,
     // 默认为 "Edit this page"
