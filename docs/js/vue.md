@@ -83,6 +83,27 @@
   <!-- ✅ 不使用重复的属性 -->
   <base-component :title="demo" />
   ```
+- 🔖 **no-use-id-in-template**
+
+  🤩 不建议在模板中使用，推荐使用 ref 来替代，采用小驼峰式命名
+
+  ```vue{1-7,9-15}
+  <!-- 🔴 通过 ID 来获取-->
+  <template>
+    <div id="areaChart"></div>
+  </template>
+  <script>
+    const areaChartElement = document.getElementById('areaChart');
+  </script>
+
+  <!-- ✅ 通过 Ref 来获取-->
+  <template>
+    <div ref="areaChart"></div>
+  </template>
+  <script>
+    const areaChartElement = this.$refs.areaChart;
+  </script>
+  ```
 
 ## 脚本
 
@@ -318,7 +339,7 @@
     }
   </script>
   ```
-- 🛠️ **order-in-components**
+- 💄 **order-in-component**
 
   🤩 脚本中的钩子函数应当遵循组件生命周期渐进和依赖注入靠前规则
 

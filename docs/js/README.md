@@ -200,7 +200,7 @@
 
   🚫 禁止使用 alert、eval 及 with
 
-  ```javascript{1-3,5-8}
+  ```javascript{1-3,5-7}
   // 🔴 使用 alert
   alert(1)
   ...
