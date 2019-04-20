@@ -48,6 +48,10 @@ module.exports = {
     editLinkText: '在 GitHub 上编辑此页！',
     nav: [
       {
+        text: '阅前指南',
+        link: '/guide/'
+      },
+      {
         text: 'JS规范',
         link: '/js/'
       },
@@ -61,6 +65,13 @@ module.exports = {
       }
     ],
     sidebar: {
+      '/guide/': [{
+        title: '前言',
+        collapsable: false,
+        children: [
+          ''
+        ]
+      }],
       '/js/': [{
         title: '规范列表',
         collapsable: false,

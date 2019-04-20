@@ -140,6 +140,6 @@ git push origin hotfix_0420_class_record
 git branch -d hotfix_0420_class_record
 git push origin --delete hotfix_0420_class_record
 ```
-总体来说，拉新分支解决问题，再合并至主分支并删除新分支。
+简单来说，拉新分支解决问题，再合并至主分支并删除新分支。
 
 

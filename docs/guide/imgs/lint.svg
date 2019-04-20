@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="-238 -370 712 1009" width="712" height="1009">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="PingFang SC" font-size="16" panose-1="2 11 4 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-150" underline-thickness="58" slope="0" x-height="600" cap-height="860" ascent="1060.0021" descent="-340.0007" font-weight="400">
+      <font-face-src>
+        <font-face-name name="PingFangSC-Regular"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="#869aa3">
+      <g>
+        <path d="M 4.8 0 L 0 -1.8 L 0 1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="#8699a4">
+      <g>
+        <path d="M 4.8 0 L 0 -1.8 L 0 1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.10.2 
+    <dc:date>2019-04-20 17:54:33 +0000</dc:date>
+  </metadata>
+  <g id="版面___1" fill-opacity="1" stroke="none" stroke-opacity="1" fill="none" stroke-dasharray="none">
+    <title>版面 1</title>
+    <g id="版面___1: 图层 2">
+      <title>图层 2</title>
+      <g id="Group_38">
+        <g id="Graphic_4">
+          <path d="M -99 -29.75 L 33 -29.75 C 38.522847 -29.75 43 -25.272847 43 -19.75 L 43 36.75 C 43 42.27285 38.522847 46.75 33 46.75 L -99 46.75 C -104.52285 46.75 -109 42.27285 -109 36.75 L -109 -19.75 C -109 -25.272847 -104.52285 -29.75 -99 -29.75 Z" fill="#ffb735"/>
+          <path d="M -99 -29.75 L 33 -29.75 C 38.522847 -29.75 43 -25.272847 43 -19.75 L 43 36.75 C 43 42.27285 38.522847 46.75 33 46.75 L -99 46.75 C -104.52285 46.75 -109 42.27285 -109 36.75 L -109 -19.75 C -109 -25.272847 -104.52285 -29.75 -99 -29.75 Z" stroke="#ffb735" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(-104 -3)" fill="white">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="28.376" y="17">ES </tspan>
+            <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="white" y="17">and Vue</tspan>
+          </text>
+        </g>
+        <g id="Graphic_5">
+          <path d="M 214 -29.75 L 346 -29.75 C 351.52285 -29.75 356 -25.272847 356 -19.75 L 356 36.75 C 356 42.27285 351.52285 46.75 346 46.75 L 214 46.75 C 208.47715 46.75 204 42.27285 204 36.75 L 204 -19.75 C 204 -25.272847 208.47715 -29.75 214 -29.75 Z" fill="#1472b6"/>
+          <path d="M 214 -29.75 L 346 -29.75 C 351.52285 -29.75 356 -25.272847 356 -19.75 L 356 36.75 C 356 42.27285 351.52285 46.75 346 46.75 L 214 46.75 C 208.47715 46.75 204 42.27285 204 36.75 L 204 -19.75 C 204 -25.272847 208.47715 -29.75 214 -29.75 Z" stroke="#1472b6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(209 -3)" fill="white">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="20.032" y="17">CSS</tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" y="17"> </tspan>
+            <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="white" y="17">and</tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" y="17"> </tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" y="17">Less</tspan>
+          </text>
+        </g>
+        <g id="Graphic_6">
+          <path d="M 56 410.05405 L 188 410.05405 C 193.52285 410.05405 198 414.5312 198 420.05405 L 198 476.55405 C 198 482.0769 193.52285 486.55405 188 486.55405 L 56 486.55405 C 50.47715 486.55405 46 482.0769 46 476.55405 L 46 420.05405 C 46 414.5312 50.47715 410.05405 56 410.05405 Z" fill="#fe5e03"/>
+          <path d="M 56 410.05405 L 188 410.05405 C 193.52285 410.05405 198 414.5312 198 420.05405 L 198 476.55405 C 198 482.0769 193.52285 486.55405 188 486.55405 L 56 486.55405 C 50.47715 486.55405 46 482.0769 46 476.55405 L 46 420.05405 C 46 414.5312 50.47715 410.05405 56 410.05405 Z" stroke="#fe5e03" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(51 438.30405)" fill="white">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="5.792" y="15">Commit  Message  </tspan>
+          </text>
+        </g>
+        <g id="Graphic_8">
+          <path d="M -99 196.75 L 33 196.75 C 38.522847 196.75 43 201.22715 43 206.75 L 43 263.25 C 43 268.77285 38.522847 273.25 33 273.25 L -99 273.25 C -104.52285 273.25 -109 268.77285 -109 263.25 L -109 206.75 C -109 201.22715 -104.52285 196.75 -99 196.75 Z" fill="#4b32c4"/>
+          <path d="M -99 196.75 L 33 196.75 C 38.522847 196.75 43 201.22715 43 206.75 L 43 263.25 C 43 268.77285 38.522847 273.25 33 273.25 L -99 273.25 C -104.52285 273.25 -109 268.77285 -109 263.25 L -109 206.75 C -109 201.22715 -104.52285 196.75 -99 196.75 Z" stroke="#4b32c4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <text transform="translate(-104 225)" fill="white">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="47.736" y="15">ESLint</tspan>
+          </text>
+        </g>
+        <g id="Graphic_9">
+          <path d="M 214 196.75 L 346 196.75 C 351.52285 196.75 356 201.22715 356 206.75 L 356 263.25 C 356 268.77285 351.52285 273.25 346 273.25 L 214 273.25 C 208.47715 273.25 204 268.77285 204 263.25 L 204 206.75 C 204 201.22715 208.47715 196.75 214 196.75 Z" fill="black"/>
+          <path d="M 214 196.75 L 346 196.75 C 351.52285 196.75 356 201.22715 356 206.75 L 356 263.25 C 356 268.77285 351.52285 273.25 346 273.25 L 214 273.25 C 208.47715 273.25 204 268.77285 204 263.25 L 204 206.75 C 204 201.22715 208.47715 196.75 214 196.75 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(209 225)" fill="white">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="40.032" y="15">StyleLint</tspan>
+          </text>
+        </g>
+        <g id="Graphic_10">
+          <path d="M -99 83.5 L 33 83.5 C 38.522847 83.5 43 87.97715 43 93.5 L 43 150 C 43 155.52285 38.522847 160 33 160 L -99 160 C -104.52285 160 -109 155.52285 -109 150 L -109 93.5 C -109 87.97715 -104.52285 83.5 -99 83.5 Z" fill="white"/>
+          <path d="M -99 83.5 L 33 83.5 C 38.522847 83.5 43 87.97715 43 93.5 L 43 150 C 43 155.52285 38.522847 160 33 160 L -99 160 C -104.52285 160 -109 155.52285 -109 150 L -109 93.5 C -109 87.97715 -104.52285 83.5 -99 83.5 Z" stroke="#c596c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <text transform="translate(-104 111.75)" fill="#c596c7">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="#c596c7" x="45.224" y="15">Prettier</tspan>
+          </text>
+        </g>
+        <g id="Graphic_11">
+          <path d="M 214 83.5 L 346 83.5 C 351.52285 83.5 356 87.97715 356 93.5 L 356 150 C 356 155.52285 351.52285 160 346 160 L 214 160 C 208.47715 160 204 155.52285 204 150 L 204 93.5 C 204 87.97715 208.47715 83.5 214 83.5 Z" fill="white"/>
+          <path d="M 214 83.5 L 346 83.5 C 351.52285 83.5 356 87.97715 356 93.5 L 356 150 C 356 155.52285 351.52285 160 346 160 L 214 160 C 208.47715 160 204 155.52285 204 150 L 204 93.5 C 204 87.97715 208.47715 83.5 214 83.5 Z" stroke="#c596c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <text transform="translate(209 111.75)" fill="#c596c7">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="#c596c7" x="45.224" y="15">Prettier</tspan>
+          </text>
+        </g>
+        <g id="Line_12">
+          <path d="M -33 46.75 L -33 68.125 L -33 65.125 L -33 69.6" marker-end="url(#FilledArrow_Marker)" stroke="#869aa3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_13">
+          <line x1="-33" y1="161" x2="-33" y2="182.85" marker-end="url(#FilledArrow_Marker)" stroke="#869aa3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_14">
+          <path d="M 280 46.75 L 280 68.125 L 280 65.125 L 280 69.6" marker-end="url(#FilledArrow_Marker)" stroke="#869aa3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_16">
+          <line x1="280" y1="161" x2="280" y2="183.85" marker-end="url(#FilledArrow_Marker)" stroke="#869aa3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Graphic_19">
+          <path d="M 56 530.05405 L 188 530.05405 C 193.52285 530.05405 198 534.5312 198 540.05405 L 198 596.55405 C 198 602.0769 193.52285 606.55405 188 606.55405 L 56 606.55405 C 50.47715 606.55405 46 602.0769 46 596.55405 L 46 540.05405 C 46 534.5312 50.47715 530.05405 56 530.05405 Z" fill="#44c289"/>
+          <path d="M 56 530.05405 L 188 530.05405 C 193.52285 530.05405 198 534.5312 198 540.05405 L 198 596.55405 C 198 602.0769 193.52285 606.55405 188 606.55405 L 56 606.55405 C 50.47715 606.55405 46 602.0769 46 596.55405 L 46 540.05405 C 46 534.5312 50.47715 530.05405 56 530.05405 Z" stroke="#42b783" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <text transform="translate(51 558.30405)" fill="white">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="4.312" y="15">verify commit-msg</tspan>
+          </text>
+        </g>
+        <g id="Line_20">
+          <line x1="122" y1="486.55405" x2="122" y2="516.15405" marker-end="url(#FilledArrow_Marker)" stroke="#869aa3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Graphic_21">
+          <path d="M 56 -341.25 L 188 -341.25 C 193.52285 -341.25 198 -336.77285 198 -331.25 L 198 -274.75 C 198 -269.22715 193.52285 -264.75 188 -264.75 L 56 -264.75 C 50.47715 -264.75 46 -269.22715 46 -274.75 L 46 -331.25 C 46 -336.77285 50.47715 -341.25 56 -341.25 Z" fill="#fa6854"/>
+          <path d="M 56 -341.25 L 188 -341.25 C 193.52285 -341.25 198 -336.77285 198 -331.25 L 198 -274.75 C 198 -269.22715 193.52285 -264.75 188 -264.75 L 56 -264.75 C 50.47715 -264.75 46 -269.22715 46 -274.75 L 46 -331.25 C 46 -336.77285 50.47715 -341.25 56 -341.25 Z" stroke="#f86954" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(51 -313)" fill="white">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="48.624" y="15">Husky</tspan>
+          </text>
+        </g>
+        <g id="Graphic_22">
+          <path d="M 56 -218.25 L 188 -218.25 C 193.52285 -218.25 198 -213.77285 198 -208.25 L 198 -151.75 C 198 -146.22715 193.52285 -141.75 188 -141.75 L 56 -141.75 C 50.47715 -141.75 46 -146.22715 46 -151.75 L 46 -208.25 C 46 -213.77285 50.47715 -218.25 56 -218.25 Z" fill="#e88634"/>
+          <path d="M 56 -218.25 L 188 -218.25 C 193.52285 -218.25 198 -213.77285 198 -208.25 L 198 -151.75 C 198 -146.22715 193.52285 -141.75 188 -141.75 L 56 -141.75 C 50.47715 -141.75 46 -146.22715 46 -151.75 L 46 -208.25 C 46 -213.77285 50.47715 -218.25 56 -218.25 Z" stroke="#e88634" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(51 -190)" fill="white">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="29.952" y="15">Lint Staged</tspan>
+          </text>
+        </g>
+        <g id="Line_23">
+          <path d="M 122 -264.75 L 122 -260.625 L 121.75 -236 L 121.68167 -231.14872" marker-end="url(#FilledArrow_Marker)" stroke="#869aa3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_26">
+          <path d="M 122 -141.75 L 122 -135.25 L 121.75 -110.625 L 121.66024 -103.399" marker-end="url(#FilledArrow_Marker)" stroke="#869aa3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Graphic_28">
+          <rect x="-237" y="-369.44595" width="710" height="1007.446" stroke="#fafdfb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_30">
+          <path d="M 121.5 -90.5 L -33 -90.5 L -33 -42.65" marker-end="url(#FilledArrow_Marker)" stroke="#869aa3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_32">
+          <path d="M 121.5 -90.5 L 280 -90.5 L 280 -42.65" marker-end="url(#FilledArrow_Marker_2)" stroke="#8699a4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_35">
+          <path d="M 121.7027 341 L 121.85135 366.07703 L 122 394.65203 L 122 397.15405" marker-end="url(#FilledArrow_Marker)" stroke="#869aa3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_36">
+          <path d="M -33 274.25 L -33 341 L 121.7027 341" stroke="#869aa3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="Line_37">
+          <path d="M 280 273.25 L 280 341 L 121.7027 341" stroke="#849aa2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

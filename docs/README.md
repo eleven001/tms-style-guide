@@ -2,7 +2,7 @@
 home: true
 heroImage: /icon_logo.png
 actionText: 快速查看 →
-actionLink: /js/
+actionLink: /guide/
 features:
 - title: JS 规范
   details:  贴近 ES 和 Vue 社区最佳实践的规范。
