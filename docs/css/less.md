@@ -23,8 +23,6 @@ Less基础库目录结构如下：
 │   │
 │   ├── `variable`_(**常用变量配置**)_
 │   │
-│   ├── `normalize`_(**全局样式格式化配置**)_
-│   │
 │   └── index.less _(**Less Theme出口**)_
 │   
 │   
@@ -43,6 +41,8 @@ Less基础库目录结构如下：
 │   │    └── `text`_(**文字**)_
 │   │
 │   └── index.less _(**Less Mixins出口**)_
+│
+├── `normalize`_(**全局样式重置库**)_
 │ 
 └── `animation`_(**动效库**)_
 :::  
