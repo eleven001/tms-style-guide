@@ -73,7 +73,8 @@ module.exports = {
         title: '规范列表',
         collapsable: false,
         children: [
-          ''
+          '',
+          'less'
         ]
       }],
       '/git/': [{

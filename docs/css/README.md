@@ -81,6 +81,39 @@
     --bg-color: 3d7e9a;
   }
   ```
+- 🌼 **关键帧属性**
+  
+  🤩 关键帧属性(animation-name)命名采用短横线风格
+
+  ```css{1-13,15-27}
+  /* 🔴 不推荐的命名方式 */
+  .demo{
+    animation: spinner_fade_out 1s linear infinite;
+  }
+
+  @keyframes spinner_fade_out {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  /* ✅ 推荐的命名方式 */
+  .demo{
+    animation: spinner-fade-out 1s linear infinite;
+  }
+
+  @keyframes spinner-fade-out {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  ```
 
 ## 颜色
 
