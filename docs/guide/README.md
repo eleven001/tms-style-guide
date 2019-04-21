@@ -34,7 +34,124 @@
 
 为了加速前端规范的落地，提供 ESLint 及 StyleLint 两个 npm 包，如下：
 
-- [eslint-config-kanas](https://github.com/snowball1990/eslint-config-kanas)
+- [eslint-config-tmsfe](https://github.com/Pets-web/eslint-config-tms)
 
-- [stylelint-config-kanas](https://github.com/snowball1990/stylelint-config-kanas)
+- [stylelint-config-tmsfe](https://github.com/Pets-web/stylelint-config-tms)
+
+## 使用说明
+
+1. 引入相应的 npm 包，命令如下：
+
+```bash
+# git hook
+npm i husky lint-staged -D
+# eslint
+npm i eslint eslint-config-tmsfe -D
+# stylelint
+npm i stylelint stylelint-config-tmsfe -D
+```
+
+2. 配置 <code>package.json</code> 中的 <code>script</code>
+
+```json
+"scripts": {
+  "eslint": "./node_modules/eslint/bin/eslint.js",
+  "stylelint":"./node_modules/stylelint/bin/stylelint.js"
+}
+```
+
+3. 项目根目录下新建 <code>.eslintrc.js</code> 及 <code>.eslintignore</code> 两个文件，配置如下：
+
+```javascript
+//.eslintrc.js
+module.exports = {
+  extends: ["eslint-config-tmsfe"]
+};
+```
+
+```bash
+# .eslintignore
+dist
+node_modules
+static
+```
+
+4. 项目根目录下新建 <code>.stylelintrc.js</code> 及 <code>.stylelintignore</code> 两个文件，配置如下：
+
+```javascript
+//.stylelintrc.js
+module.exports = {
+  extends: ["stylelint-config-tmsfe"]
+};
+```
+
+```bash
+# .stylelintignore
+dist
+node_modules
+static
+```
+
+5. 项目根目录下新建 <code>.prettierrc</code> 文件，配置如下：
+
+```javascript
+// .prettierrc
+{
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": false,
+  "trailingComma": "all",
+  "bracketSpacing": false,
+  "jsxBracketSameLine": true
+}
+```
+
+6. 项目根目录下新建 <code>git-hooks</code> 文件夹，并在其下面新建 <code>verify-commit-msg.js</code> 文件，配置如下：
+
+```javascript
+const chalk = require('chalk')
+const msgPath = process.env.HUSKY_GIT_PARAMS
+const msg = require('fs').readFileSync(msgPath, 'utf-8').trim()
+const commitRE = /^(revert: )?(feat|fix|polish|docs|style|refactor|perf|test|workflow|ci|chore|types|build)(\(.+\))?: .{1,50}/
+
+if (!commitRE.test(msg)) {
+  console.log()
+  console.error(
+    `  ${chalk.bgRed.white(' ERROR ')} ${chalk.red(`invalid commit message format.`)}\n\n` +
+    chalk.red(`  Proper commit message format is required for team commit specification.\n`) +
+    `  ${chalk.red('Examples:')}\n `+
+    `   ${chalk.green(`feat(v1.0): add new features`)}\n` +
+    `    ${chalk.green(`fix: hotfix bug `)}\n\n` +
+    chalk.red(`  See https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-guidelines for more details.\n`) 
+  )
+  process.exit(1)
+}
+```
+
+7. 配置 <code>package.json</code> 中的 git hooks
+
+```json
+"husky": {
+  "hooks": {
+    "pre-commit": "lint-staged",
+    "commit-msg": "node git-hooks/verify-commit-msg.js"
+  }
+},
+"lint-staged": {
+  "src/**/*.{js,vue}": [
+    "prettier --write",
+    "eslint --fix",
+    "git add"
+  ],
+  "src/**/*.{css,scss,less,vue}": [
+    "prettier --write",
+    "stylelint --fix",
+    "git add"
+  ]
+}
+```
+
+8. 开发中提交文件时，只需触发<code>git commit</code>命令，即可触发相应的 Lint
 
