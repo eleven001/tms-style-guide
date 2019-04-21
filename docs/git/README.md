@@ -120,7 +120,7 @@ git push origin v1.6.0
 
 ## Resources
 - [需求文档](http://confluence.example.com/pages/viewpage.action?pageId=5805663)
-- [设计稿](https://lanhuapp.com/web/#/item/project/board?pid=c0bc717e-9c6b-af88bafc451d)
+- [设计稿](https://lanhuapp.com/web/#/item/project/board?pid=c0bc717e)
 
 ## Collaborators
 - 张三
