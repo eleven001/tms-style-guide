@@ -55,7 +55,7 @@ git checkout -b v1.6.0
 
 ```bash
 git add .
-git commit -m "feat: add class record module"
+git commit -m "docs: update docs"
 git push origin v1.6.0
 ```
 
@@ -73,21 +73,22 @@ git push origin v1.6.0
 
 - 提交信息的 type 类型，如下表所示：
 
-| 类型     |              说明              |
-| -------- | :----------------------------: |
-| build    | 变更将影响系统构建及相关依赖 |
-| ci       |        变更持续集成配置        |
-| docs     |            文档变更            |
-| feat     |            新增功能            |
-| perf     |            性能提升            |
-| refactor |  优化代码，无新功能追加及问题修复  |
-| style    |  优化代码格式，不涉及代码逻辑  |
-| test     |            新增测试            |
-| revert   |       回滚代码至上个版本       |
+| 类型    |             说明             |
+| ------- | :--------------------------: |
+| install | 变更将影响系统构建及相关依赖 |
+| config  |       变更持续集成配置       |
+| docs    |           文档变更           |
+| add     |           新增功能           |
+| perf    |           性能提升           |
+| update  | 优化代码、修复 bug、更新代码 |
+| ui      |         UI 样式修复          |
+| test    |           新增测试           |
+| revert  |      回滚代码至上个版本      |
 
 - 功能代码请勿一次性集中提交，切割成相关小功能点，分次提交为宜
 
 4. **功能开发完成，提交到测试环境**
+
 ```bash
 git checkout dev
 git merge origin v1.6.0
@@ -97,6 +98,7 @@ git push origin dev
 ```
 
 5. **功能测试完成，预备发布至线上环境时，需要先拉取 master 验证冲突与否**
+
 ```bash
 git checkout v1.6.0
 git pull origin master
@@ -104,31 +106,34 @@ git pull origin master
 git push origin v1.6.0
 ```
 
-
 ## 上线
 
 版本上线需要分三步走：
 
 1. 在 Gitlab 上发送 Merge Request，编写上线文档，并通知到负责上线的人员
 
-2. 上线构建完，需在当前 master 下打上对应 Tag，并在 Release notes 下追加本次需求  markdown 说明，格式如下：
+2. 上线构建完，需在当前 master 下打上对应 Tag，并在 Release notes 下追加本次需求 markdown 说明，格式如下：
 
 ```markdown
 ## ChangeLog
+
 1. 新增上课录音功能
 2. 新增代码 Lint 工具
 
 ## Resources
+
 - [需求文档](http://confluence.example.com/pages/viewpage.action?pageId=5805663)
 - [设计稿](https://lanhuapp.com/web/#/item/project/board?pid=c0bc717e)
 
 ## Collaborators
+
 - 张三
 - 李四
 - 王五
 ```
 
 3. 上线之后，如果出现紧急问题需要修复，处理如下：
+
 ```bash
 git checkout master
 git checkout -b hotfix_0420_class_record
@@ -140,6 +145,5 @@ git push origin hotfix_0420_class_record
 git branch -d hotfix_0420_class_record
 git push origin --delete hotfix_0420_class_record
 ```
+
 简单来说，拉新分支解决问题，再合并至主分支并删除新分支。
-
-
