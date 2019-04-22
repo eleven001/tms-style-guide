@@ -78,7 +78,6 @@ git push origin v1.6.0
 | install | 变更将影响系统构建及相关依赖 |
 | config  |       变更持续集成配置       |
 | docs    |           文档变更           |
-| add     |           新增功能           |
 | perf    |           性能提升           |
 | update  | 优化代码、修复 bug、更新代码 |
 | ui      |         UI 样式修复          |
