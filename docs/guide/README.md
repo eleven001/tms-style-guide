@@ -18,13 +18,13 @@
 
 ## 规范说明
 
-- ES 及 Vue 规范通过 [ESLint](https://eslint.org/) 在项目中落定生效
+- ES 及 Vue 规范通过 [ESLint](https://eslint.org/) 在项目中落地生效
 
-- CSS 及 Less 规范通过 [StyleLint](https://stylelint.io/) 在项目中落定生效
+- CSS 及 Less 规范通过 [StyleLint](https://stylelint.io/) 在项目中落地生效
 
-- Git Commit 规范通过 [Husky](https://github.com/typicode/husky) 在项目中落定生效
+- Git Commit 规范通过 [Husky](https://github.com/typicode/husky) 在项目中落地生效
 
-- 代码格式化通过 [Prettier](https://prettier.io/) 在项目中落定生效
+- 代码格式化通过 [Prettier](https://prettier.io/) 在项目中落地生效
 
 ## 工程化流程
 
