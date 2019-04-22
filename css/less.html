@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Less 规范 | Pet</title>
+    <meta name="description" content="代码风格指南">
+    <link rel="shortcut icon" type="image/x-icon" href="/tms-style-guide/favicon.ico">
+  <link rel="manifest" href="/tms-style-guide/manifest.json">
+    
+    <link rel="preload" href="/tms-style-guide/assets/css/0.styles.50eb672f.css" as="style"><link rel="preload" href="/tms-style-guide/assets/js/app.5eb1428a.js" as="script"><link rel="preload" href="/tms-style-guide/assets/js/2.ddf7138d.js" as="script"><link rel="preload" href="/tms-style-guide/assets/js/9.7c2c0003.js" as="script"><link rel="preload" href="/tms-style-guide/assets/js/5.cada48df.js" as="script"><link rel="prefetch" href="/tms-style-guide/assets/js/10.1f49ec7b.js"><link rel="prefetch" href="/tms-style-guide/assets/js/11.e8b3da3b.js"><link rel="prefetch" href="/tms-style-guide/assets/js/12.71f00825.js"><link rel="prefetch" href="/tms-style-guide/assets/js/13.d72600a1.js"><link rel="prefetch" href="/tms-style-guide/assets/js/3.35929b5d.js"><link rel="prefetch" href="/tms-style-guide/assets/js/4.cfbb840d.js"><link rel="prefetch" href="/tms-style-guide/assets/js/6.96f1da38.js"><link rel="prefetch" href="/tms-style-guide/assets/js/7.5f89c14b.js"><link rel="prefetch" href="/tms-style-guide/assets/js/8.629c56f3.js">
+    <link rel="stylesheet" href="/tms-style-guide/assets/css/0.styles.50eb672f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/tms-style-guide/" class="home-link router-link-active"><!----> <span class="site-name">Pet</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/tms-style-guide/guide/" class="nav-link">阅前指南</a></div><div class="nav-item"><a href="/tms-style-guide/js/" class="nav-link">JS规范</a></div><div class="nav-item"><a href="/tms-style-guide/css/" class="nav-link router-link-active">CSS规范</a></div><div class="nav-item"><a href="/tms-style-guide/git/" class="nav-link">Git工作流</a></div> <a href="https://github.com/Pets-web/tms-style-guide" target="_blank" rel="noopener noreferrer" class="repo-link">
+      GitHub
+      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/tms-style-guide/guide/" class="nav-link">阅前指南</a></div><div class="nav-item"><a href="/tms-style-guide/js/" class="nav-link">JS规范</a></div><div class="nav-item"><a href="/tms-style-guide/css/" class="nav-link router-link-active">CSS规范</a></div><div class="nav-item"><a href="/tms-style-guide/git/" class="nav-link">Git工作流</a></div> <a href="https://github.com/Pets-web/tms-style-guide" target="_blank" rel="noopener noreferrer" class="repo-link">
+      GitHub
+      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>规范列表</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/tms-style-guide/css/" class="sidebar-link">CSS 规范</a></li><li><a href="/tms-style-guide/css/less.html" class="active sidebar-link">Less 规范</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/tms-style-guide/css/less.html#基础库" class="sidebar-link">基础库</a></li><li class="sidebar-sub-header"><a href="/tms-style-guide/css/less.html#命名" class="sidebar-link">命名</a></li><li class="sidebar-sub-header"><a href="/tms-style-guide/css/less.html#风格" class="sidebar-link">风格</a></li></ul></li></ul></div></li></ul> </div> <div class="page"> <div class="content default"><h1 id="less-规范"><a href="#less-规范" aria-hidden="true" class="header-anchor">#</a> Less 规范</h1> <div class="tip custom-block"><p class="custom-block-title">阅前提示</p> <p>本文为代码风格指南下<code>Less</code>部分，阐述了 Less 开发过程中团队规范细节，旨在规避错误代码，保证代码风格统一，降低团队协作成本，提升应用性能。</p> <p>🚫 代表禁止规则，🤔 代表约定规则，🤩 代表推荐规则</p></div> <h2 id="基础库"><a href="#基础库" aria-hidden="true" class="header-anchor">#</a> 基础库</h2> <p>Less基础库目录结构如下：</p> <pre class="vue-container"><code><p><code>style</code><em>(<strong>Less Base文件夹</strong>)</em>
+│  
+├── <code>theme</code><em>(<strong>Less Theme</strong>)</em>
+│   │
+│   ├── <code>color</code><em>(<strong>颜色变量配置</strong>)</em>
+│   │
+│   ├── <code>typography</code><em>(<strong>字体变量配置</strong>)</em>
+│   │
+│   ├── <code>variable</code><em>(<strong>常用变量配置</strong>)</em>
+│   │
+│   └── index.less <em>(<strong>Less Theme出口</strong>)</em>
+│  
+│  
+├── <code>utilities</code><em>(<strong>Less Mixins</strong>)</em>
+│   │
+│   ├── <code>mixins</code><em>(<strong>Mixins文件夹</strong>)</em>
+│   │    │
+│   │    ├── <code>layout</code><em>(<strong>布局</strong>)</em>
+│   │    │
+│   │    ├── <code>size</code><em>(<strong>大小</strong>)</em>
+│   │    │
+│   │    ├── <code>shape</code><em>(<strong>形状</strong>)</em>
+│   │    │
+│   │    ├── <code>color</code><em>(<strong>色彩</strong>)</em>
+│   │    │
+│   │    └── <code>text</code><em>(<strong>文字</strong>)</em>
+│   │
+│   └── index.less <em>(<strong>Less Mixins出口</strong>)</em>
+│
+├── <code>normalize</code><em>(<strong>全局样式重置库</strong>)</em>
+│ 
+└── <code>animation</code><em>(<strong>动效库</strong>)</em></p>
+</code></pre><p>配置全局 Less 时，可遵循上述结构进行添加。</p> <h2 id="命名"><a href="#命名" aria-hidden="true" class="header-anchor">#</a> 命名</h2> <ul><li><p>🌼 <strong>variable</strong></p> <p>🤔 Less 变量命名，采用短横线风格</p> <div class="language-less extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-less"><code><span class="token comment">// 🔴 不推荐的命名方式</span>
+<span class="token variable">@petColorInfo<span class="token punctuation">:</span></span> #3b8cff<span class="token punctuation">;</span>
+
+<span class="token comment">// ✅ 推荐的命名方式</span>
+<span class="token variable">@pet-color-info<span class="token punctuation">:</span></span> #3b8cff<span class="token punctuation">;</span>
+</code></pre></div></li> <li><p>🌼 <strong>mixin</strong></p> <p>🤔 Less 混入函数命名，采用短横线风格</p> <div class="language-less extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-less"><code><span class="token comment">// 🔴 不推荐的命名方式</span>
+<span class="token selector">.petColor(<span class="token variable">@color</span>: #ffffff)</span><span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> <span class="token variable">@color</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// ✅ 推荐的命名方式</span>
+<span class="token selector">.pet-color(<span class="token variable">@color</span>: #ffffff)</span><span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> <span class="token variable">@color</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li></ul> <h2 id="风格"><a href="#风格" aria-hidden="true" class="header-anchor">#</a> 风格</h2> <ul><li><p>💄 <strong>mixin-style</strong></p> <p>🤔 Less 混入函数必须进行调用</p> <div class="language-less extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-less"><code><span class="token comment">// 🔴 不推荐的使用方式</span>
+<span class="token selector">.pet-display(<span class="token variable">@type</span>:none)</span><span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> <span class="token variable">@type</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.demo</span><span class="token punctuation">{</span>
+  <span class="token mixin-usage function">.pet-display</span><span class="token punctuation">;</span> 
+<span class="token punctuation">}</span>
+
+<span class="token comment">// ✅ 推荐的使用方式</span>
+<span class="token selector">.pet-display(<span class="token variable">@type</span>:none)</span><span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> <span class="token variable">@type</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.demo</span><span class="token punctuation">{</span>
+  <span class="token mixin-usage function">.pet-display</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>💄 <strong>extend-style</strong></p> <p>🤔 Less 扩展函数统一在内部调用</p> <div class="language-less extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-less"><code><span class="token comment">// 🔴 不推荐的使用方式</span>
+<span class="token selector">.base-flex</span><span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.demo:extend(.base-flex)</span> <span class="token punctuation">{</span>
+  ...
+<span class="token punctuation">}</span>
+
+<span class="token comment">// ✅ 推荐的使用方式</span>
+<span class="token selector">.base-flex</span><span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  &amp;<span class="token punctuation">:</span><span class="token function">extend</span><span class="token punctuation">(</span>.base<span class="token operator">-</span>flex<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  ...
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>💄 <strong>comment-style</strong></p> <p>🤔 Less 多行注释使用特定风格，混入函数必须提供注释</p> <div class="language-less extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-less"><code><span class="token comment">// 🔴 不推荐的注释风格</span>
+
+<span class="token comment">//显示元素</span>
+<span class="token selector">.visible(<span class="token variable">@display</span>) when (<span class="token variable">@display</span>=show)</span><span class="token punctuation">{</span>
+  <span class="token property">visibility</span><span class="token punctuation">:</span> visible<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">//隐藏元素</span>
+<span class="token selector">.visible(<span class="token variable">@display</span>) when (<span class="token variable">@display</span>=hide)</span><span class="token punctuation">{</span>
+  <span class="token property">visibility</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// ✅ 推荐的注释风格</span>
+
+<span class="token comment">//@name             元素是否显示</span>
+<span class="token comment">//@func             visible</span>
+<span class="token comment">//@param            @display（show,hide）</span>
+
+<span class="token comment">//显示元素</span>
+<span class="token selector">.visible(<span class="token variable">@display</span>) when (<span class="token variable">@display</span>=show)</span><span class="token punctuation">{</span>
+  <span class="token property">visibility</span><span class="token punctuation">:</span> visible<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">//隐藏元素</span>
+<span class="token selector">.visible(<span class="token variable">@display</span>) when (<span class="token variable">@display</span>=hide)</span><span class="token punctuation">{</span>
+  <span class="token property">visibility</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>💄 <strong>order-in-less</strong></p> <p>🤩 Less 声明块推荐按照变量声明、混入声明、嵌套声明、嵌套规则的顺序循序渐进</p> <div class="language-less extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-less"><code><span class="token comment">// 🔴 声明块顺序紊乱</span>
+
+<span class="token atrule">@keyframes spinner-fade-out</span> <span class="token punctuation">{</span>
+  <span class="token selector">0%</span> <span class="token punctuation">{</span>
+    <span class="token property">opacity</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token selector">100%</span> <span class="token punctuation">{</span>
+    <span class="token property">opacity</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token atrule">@media <span class="token punctuation">(</span>min-width<span class="token punctuation">:</span> 768px<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+  ...
+<span class="token punctuation">}</span>
+
+<span class="token selector">.demo</span><span class="token punctuation">{</span>
+  ...
+<span class="token punctuation">}</span>
+
+<span class="token selector">.text-sc(<span class="token variable">@size</span>: 14px, <span class="token variable">@color</span>: #606266)</span><span class="token punctuation">{</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span> <span class="token variable">@size</span><span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> <span class="token variable">@color</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token variable">@pet-color-info<span class="token punctuation">:</span></span> #3b8cff<span class="token punctuation">;</span>
+
+<span class="token comment">// ✅ 声明块循序渐进</span>
+
+<span class="token variable">@pet-color-info<span class="token punctuation">:</span></span> #3b8cff<span class="token punctuation">;</span>
+
+<span class="token selector">.text-sc(<span class="token variable">@size</span>: 14px, <span class="token variable">@color</span>: #606266)</span><span class="token punctuation">{</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span> <span class="token variable">@size</span><span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> <span class="token variable">@color</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.demo</span><span class="token punctuation">{</span>
+  ...
+<span class="token punctuation">}</span>
+
+<span class="token atrule">@keyframes spinner-fade-out</span> <span class="token punctuation">{</span>
+  <span class="token selector">0%</span> <span class="token punctuation">{</span>
+    <span class="token property">opacity</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token selector">100%</span> <span class="token punctuation">{</span>
+    <span class="token property">opacity</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token atrule">@media <span class="token punctuation">(</span>min-width<span class="token punctuation">:</span> 768px<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+  ...
+<span class="token punctuation">}</span>
+</code></pre></div></li></ul></div> <!----> <!----> </div></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/tms-style-guide/assets/js/app.5eb1428a.js" defer></script><script src="/tms-style-guide/assets/js/2.ddf7138d.js" defer></script><script src="/tms-style-guide/assets/js/9.7c2c0003.js" defer></script><script src="/tms-style-guide/assets/js/5.cada48df.js" defer></script>
+  </body>
+</html>

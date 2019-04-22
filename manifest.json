@@ -1,0 +1,15 @@
+{
+  "name": "Pet",
+  "short_name": "Pet",
+  "icons": [
+    {
+      "src": "/docs/icons/logo.png",
+      "sizes": "441x441",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/docs/index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#fd5e02"
+}

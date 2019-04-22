@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>CSS 规范 | Pet</title>
+    <meta name="description" content="代码风格指南">
+    <link rel="shortcut icon" type="image/x-icon" href="/tms-style-guide/favicon.ico">
+  <link rel="manifest" href="/tms-style-guide/manifest.json">
+    
+    <link rel="preload" href="/tms-style-guide/assets/css/0.styles.50eb672f.css" as="style"><link rel="preload" href="/tms-style-guide/assets/js/app.5eb1428a.js" as="script"><link rel="preload" href="/tms-style-guide/assets/js/2.ddf7138d.js" as="script"><link rel="preload" href="/tms-style-guide/assets/js/8.629c56f3.js" as="script"><link rel="preload" href="/tms-style-guide/assets/js/5.cada48df.js" as="script"><link rel="prefetch" href="/tms-style-guide/assets/js/10.1f49ec7b.js"><link rel="prefetch" href="/tms-style-guide/assets/js/11.e8b3da3b.js"><link rel="prefetch" href="/tms-style-guide/assets/js/12.71f00825.js"><link rel="prefetch" href="/tms-style-guide/assets/js/13.d72600a1.js"><link rel="prefetch" href="/tms-style-guide/assets/js/3.35929b5d.js"><link rel="prefetch" href="/tms-style-guide/assets/js/4.cfbb840d.js"><link rel="prefetch" href="/tms-style-guide/assets/js/6.96f1da38.js"><link rel="prefetch" href="/tms-style-guide/assets/js/7.5f89c14b.js"><link rel="prefetch" href="/tms-style-guide/assets/js/9.7c2c0003.js">
+    <link rel="stylesheet" href="/tms-style-guide/assets/css/0.styles.50eb672f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/tms-style-guide/" class="home-link router-link-active"><!----> <span class="site-name">Pet</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/tms-style-guide/guide/" class="nav-link">阅前指南</a></div><div class="nav-item"><a href="/tms-style-guide/js/" class="nav-link">JS规范</a></div><div class="nav-item"><a href="/tms-style-guide/css/" class="nav-link router-link-exact-active router-link-active">CSS规范</a></div><div class="nav-item"><a href="/tms-style-guide/git/" class="nav-link">Git工作流</a></div> <a href="https://github.com/Pets-web/tms-style-guide" target="_blank" rel="noopener noreferrer" class="repo-link">
+      GitHub
+      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/tms-style-guide/guide/" class="nav-link">阅前指南</a></div><div class="nav-item"><a href="/tms-style-guide/js/" class="nav-link">JS规范</a></div><div class="nav-item"><a href="/tms-style-guide/css/" class="nav-link router-link-exact-active router-link-active">CSS规范</a></div><div class="nav-item"><a href="/tms-style-guide/git/" class="nav-link">Git工作流</a></div> <a href="https://github.com/Pets-web/tms-style-guide" target="_blank" rel="noopener noreferrer" class="repo-link">
+      GitHub
+      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>规范列表</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/tms-style-guide/css/" class="active sidebar-link">CSS 规范</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/tms-style-guide/css/#命名" class="sidebar-link">命名</a></li><li class="sidebar-sub-header"><a href="/tms-style-guide/css/#颜色" class="sidebar-link">颜色</a></li><li class="sidebar-sub-header"><a href="/tms-style-guide/css/#函数" class="sidebar-link">函数</a></li><li class="sidebar-sub-header"><a href="/tms-style-guide/css/#单位" class="sidebar-link">单位</a></li><li class="sidebar-sub-header"><a href="/tms-style-guide/css/#前缀" class="sidebar-link">前缀</a></li><li class="sidebar-sub-header"><a href="/tms-style-guide/css/#语法" class="sidebar-link">语法</a></li></ul></li><li><a href="/tms-style-guide/css/less.html" class="sidebar-link">Less 规范</a></li></ul></div></li></ul> </div> <div class="page"> <div class="content default"><h1 id="css-规范"><a href="#css-规范" aria-hidden="true" class="header-anchor">#</a> CSS 规范</h1> <div class="tip custom-block"><p class="custom-block-title">阅前提示</p> <p>本文为代码风格指南下<code>CSS</code>部分，阐述了 CSS 开发过程中团队规范细节，旨在规避错误代码，保证代码风格统一，降低团队协作成本，提升应用性能。</p> <p>🚫 代表禁止规则，🤔 代表约定规则，🤩 代表推荐规则</p></div> <h2 id="命名"><a href="#命名" aria-hidden="true" class="header-anchor">#</a> 命名</h2> <ul><li><p>🌼 <strong>ID 选择器</strong></p> <p>🤩 ID 选择器命名建议与 Vue 中 Ref 保持一致，采用小驼峰式风格</p> <p>⚠️ 不建议使用 ID ，尽可能使用 Class</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 不推荐的命名方式 */</span>
+<span class="token selector">#demo-module</span><span class="token punctuation">{</span>
+  ...
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 推荐的命名方式 */</span>
+<span class="token selector">#demoModule</span><span class="token punctuation">{</span>
+  ...
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>🌼 <strong>Class 选择器</strong></p> <p>🤔 Class 选择器命名采用 BEM 风格</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 不推荐的命名方式 */</span>
+<span class="token selector">.header</span><span class="token punctuation">{</span>
+  ...
+<span class="token punctuation">}</span>
+<span class="token selector">.headerButton</span><span class="token punctuation">{</span>
+  ...
+<span class="token punctuation">}</span>
+<span class="token selector">.headerButtonActive</span><span class="token punctuation">{</span>
+  ...
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 推荐的命名方式 */</span>
+
+<span class="token comment">/* BEM 格式 */</span>
+<span class="token selector">.[block-prefix]-[block-name]__[element-name]--[modifier-name]</span> <span class="token punctuation">{</span>
+  ...
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* BEM 案例 */</span>
+<span class="token selector">.header__button</span><span class="token punctuation">{</span>
+  ...
+<span class="token punctuation">}</span>
+<span class="token selector">.header--active</span><span class="token punctuation">{</span>
+  ...
+<span class="token punctuation">}</span>
+<span class="token selector">.header__button--active</span><span class="token punctuation">{</span>
+  ...
+<span class="token punctuation">}</span>
+<span class="token selector">.main-header__button--active</span><span class="token punctuation">{</span>
+  ...
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>🌼 <strong>自定义属性</strong></p> <p>🤩 自定义属性(--custom-property)命名采用短横线风格</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 不推荐的命名方式 */</span>
+<span class="token selector">:root</span> <span class="token punctuation">{</span>
+  <span class="token property">--bgColor</span><span class="token punctuation">:</span> 3d7e9a<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 推荐的命名方式 */</span>
+<span class="token selector">:root</span> <span class="token punctuation">{</span>
+  <span class="token property">--bg-color</span><span class="token punctuation">:</span> 3d7e9a<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>🌼 <strong>关键帧属性</strong></p> <p>🤩 关键帧属性(animation-name)命名采用短横线风格</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 不推荐的命名方式 */</span>
+<span class="token selector">.demo</span><span class="token punctuation">{</span>
+  <span class="token property">animation</span><span class="token punctuation">:</span> spinner_fade_out 1s linear infinite<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token atrule"><span class="token rule">@keyframes</span> spinner_fade_out</span> <span class="token punctuation">{</span>
+  <span class="token selector">0%</span> <span class="token punctuation">{</span>
+    <span class="token property">opacity</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token selector">100%</span> <span class="token punctuation">{</span>
+    <span class="token property">opacity</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 推荐的命名方式 */</span>
+<span class="token selector">.demo</span><span class="token punctuation">{</span>
+  <span class="token property">animation</span><span class="token punctuation">:</span> spinner-fade-out 1s linear infinite<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token atrule"><span class="token rule">@keyframes</span> spinner-fade-out</span> <span class="token punctuation">{</span>
+  <span class="token selector">0%</span> <span class="token punctuation">{</span>
+    <span class="token property">opacity</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token selector">100%</span> <span class="token punctuation">{</span>
+    <span class="token property">opacity</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li></ul> <h2 id="颜色"><a href="#颜色" aria-hidden="true" class="header-anchor">#</a> 颜色</h2> <ul><li><p>🍭 <strong>no-color-named</strong></p> <p>🚫 禁止用颜色英文单词直接命名颜色</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 颜色英文单词直接命名颜色 */</span>
+<span class="token selector">.demo</span><span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 推荐的命名方式 */</span>
+<span class="token selector">.demo</span><span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #ffffff<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>🍭 <strong>color-hex-style</strong></p> <p>🤔 16 进制颜色采用扩写，并且字母小写</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 颜色英文单词直接命名颜色 */</span>
+<span class="token selector">.demo</span><span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #FFFFFF<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.demo</span><span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 推荐的命名方式 */</span>
+<span class="token selector">.demo</span><span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #ffffff<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>🍭 <strong>color-no-invalid-hex</strong></p> <p>🚫 禁止无效的 16 进制颜色</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 无效的 16 进制颜色 */</span>
+<span class="token selector">.demo</span><span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #00<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 有效的 16 进制颜色 */</span>
+<span class="token selector">.demo</span><span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #000000<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li></ul> <h2 id="函数"><a href="#函数" aria-hidden="true" class="header-anchor">#</a> 函数</h2> <ul><li><p>🛠️ <strong>function-calc-no-invalid</strong></p> <p>🚫 禁止在 calc 函数中使用无效表达式</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 无效 calc 表达式 */</span>
+<span class="token selector">.demo</span><span class="token punctuation">{</span>
+  <span class="token property">margin-left</span><span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span>100% - + 80px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span>100px / 0<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 有效 calc 表达式 */</span>
+<span class="token selector">.demo</span><span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span>100vw - 200px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> <span class="token function">calc</span><span class="token punctuation">(</span><span class="token function">var</span><span class="token punctuation">(</span>--base-height<span class="token punctuation">)</span> + 10px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>🛠️ <strong>function-linear-gradient-no-nonstandard-direction</strong></p> <p>🚫 禁止在 linear-gradient() 中调用不符合标准语法的无效方向值</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 无效方向值 */</span>
+<span class="token selector">.demo</span><span class="token punctuation">{</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>bottom, #ffffff, #000000<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 有效方向值 */</span>
+<span class="token selector">.demo</span><span class="token punctuation">{</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>to bottom, #ffffff, #000000<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li></ul> <h2 id="单位"><a href="#单位" aria-hidden="true" class="header-anchor">#</a> 单位</h2> <ul><li><p>🧩 <strong>unit-blacklist</strong></p> <p>🚫 禁止使用 <code>em</code> 、<code>dpi</code> 及 <code>pt</code> 作为单位</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 禁止单位 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span> 0.8em<span class="token punctuation">;</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 10pt<span class="token punctuation">;</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> 10dpi<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 推荐单位 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span> 14px<span class="token punctuation">;</span>
+  <span class="token property">margin-left</span><span class="token punctuation">:</span> 5rem<span class="token punctuation">;</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 10vw<span class="token punctuation">;</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>🧩 <strong>length-zero-no-unit</strong></p> <p>🚫 禁止零长度的单位</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 零长度有单位 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token property">top</span><span class="token punctuation">:</span> 0rem<span class="token punctuation">;</span>
+  <span class="token property">left</span><span class="token punctuation">:</span> 0px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 零长度无单位 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token property">top</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token property">left</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>🧩 <strong>number-leading-zero</strong></p> <p>🤩 小于 1 的小数有一个前导零</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 无前导零 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">translate</span><span class="token punctuation">(</span>2px, .4px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 有前导零 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">translate</span><span class="token punctuation">(</span>2px, 0.4px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>🧩 <strong>number-no-trailing-zeros</strong></p> <p>🤩 避免多数量的尾随零</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 零长度有单位 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 20.5000vw<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 零长度无单位 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 20.5vw<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li></ul> <h2 id="前缀"><a href="#前缀" aria-hidden="true" class="header-anchor">#</a> 前缀</h2> <ul><li><p>📎 <strong>prefix</strong></p> <p>🚫 禁止添加浏览器前缀</p> <p>⚠️ PostCSS 内置插件 autoprefixer 会统一处理前缀</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 添加浏览器前缀 */</span>
+<span class="token atrule"><span class="token rule">@media</span> <span class="token punctuation">(</span><span class="token property">-webkit-min-device-pixel-ratio</span><span class="token punctuation">:</span> 1<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+  ...
+<span class="token punctuation">}</span>
+
+<span class="token selector">input::-webkit-input-placeholder</span> <span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #ffffff<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> -webkit-flex<span class="token punctuation">;</span>
+  <span class="token property">-webkit-transform</span><span class="token punctuation">:</span> <span class="token function">scale</span><span class="token punctuation">(</span>1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token atrule"><span class="token rule">@-webkit-keyframes</span></span> <span class="token punctuation">{</span>
+  <span class="token selector">100%</span> <span class="token punctuation">{</span> 
+    <span class="token property">left</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span> 
+  <span class="token punctuation">}</span> 
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 无浏览器前缀 */</span>
+<span class="token atrule"><span class="token rule">@media</span> <span class="token punctuation">(</span><span class="token property">min-device-pixel-ratio</span><span class="token punctuation">:</span> 1<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+  ...
+<span class="token punctuation">}</span>
+
+<span class="token selector">input::placeholder</span> <span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #ffffff<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+  <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">scale</span><span class="token punctuation">(</span>1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token atrule"><span class="token rule">@keyframes</span></span> <span class="token punctuation">{</span>
+  <span class="token selector">100%</span> <span class="token punctuation">{</span> 
+    <span class="token property">left</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span> 
+  <span class="token punctuation">}</span> 
+<span class="token punctuation">}</span>
+</code></pre></div></li></ul> <h2 id="语法"><a href="#语法" aria-hidden="true" class="header-anchor">#</a> 语法</h2> <ul><li><p>💄 <strong>no-duplicate-at-import-rules</strong></p> <p>🚫 禁止在样式表中使用重复的 @import 规则</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 重复 @import */</span>
+<span class="token atrule"><span class="token rule">@import</span> <span class="token string">&quot;common.css&quot;</span><span class="token punctuation">;</span></span>
+<span class="token atrule"><span class="token rule">@import</span> <span class="token string">&quot;reset.css&quot;</span><span class="token punctuation">;</span></span>
+<span class="token atrule"><span class="token rule">@import</span> <span class="token string">&quot;common.css&quot;</span><span class="token punctuation">;</span></span>
+
+<span class="token comment">/* ✅ 无重复 @import */</span>
+<span class="token atrule"><span class="token rule">@import</span> <span class="token string">&quot;common.css&quot;</span><span class="token punctuation">;</span></span>
+<span class="token atrule"><span class="token rule">@import</span> <span class="token string">&quot;reset.css&quot;</span><span class="token punctuation">;</span></span>
+</code></pre></div></li> <li><p>💄 <strong>declaration-block-no-shorthand-property-overrides</strong></p> <p>🚫 禁止在样式表中使用简写属性覆盖相关的扩写属性</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 简写属性覆盖扩写属性 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token property">margin-top</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+  <span class="token property">margin</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 扩写属性覆盖简写属性 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token property">margin</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+  <span class="token property">margin-top</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>💄 <strong>declaration-block-no-duplicate-properties</strong></p> <p>🚫 禁止声明块的重复属性</p> <p>⚠️ 考虑到兼容问题，连续的重复属性可忽略</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 不连续的重复属性 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #000000<span class="token punctuation">;</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #ffffff<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 连续的重复属性 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #000000<span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #ffffff<span class="token punctuation">;</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>💄 <strong>declaration-block-single-line-max-declarations</strong></p> <p>🚫 限制一个单行声明块中声明的数量</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 单行多声明 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token property">margin</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span><span class="token property">color</span><span class="token punctuation">:</span> #ffffff<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 单行单声明 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token property">margin</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #ffffff<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>💄 <strong>block-no-empty</strong></p> <p>🚫 禁止空块</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 空块无声明 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 非空块 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #ffffff<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>💄 <strong>comment-style</strong></p> <p>🚫 禁止 CSS 中使用空注释及双斜杠注释</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 错误注释 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token comment">/* */</span>
+  // <span class="token property">margin</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 正确注释 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token comment">/* color: #ffffff; */</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>💄 <strong>properties-order</strong></p> <p>🤩 CSS 属性声明推荐按照尺寸、字体、外观、布局的顺序循序渐进</p> <div class="language-css extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-css"><code><span class="token comment">/* 🔴 属性声明顺序紊乱 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> 64px<span class="token punctuation">;</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>
+  <span class="token property">animation</span><span class="token punctuation">:</span> spinner-fade-out 1s linear infinite<span class="token punctuation">;</span>
+  <span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #ffffff<span class="token punctuation">;</span>
+  <span class="token property">line-height</span><span class="token punctuation">:</span> 64px<span class="token punctuation">;</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+  <span class="token property">flex-direction</span><span class="token punctuation">:</span> column<span class="token punctuation">;</span>
+  <span class="token property">justify-content</span><span class="token punctuation">:</span> space-between<span class="token punctuation">;</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> #304156<span class="token punctuation">;</span>
+  <span class="token property">z-index</span><span class="token punctuation">:</span> 999<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* ✅ 属性声明循序渐进 */</span>
+<span class="token selector">.demo</span> <span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> 64px<span class="token punctuation">;</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+  <span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+  <span class="token property">line-height</span><span class="token punctuation">:</span> 64px<span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #ffffff<span class="token punctuation">;</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> #304156<span class="token punctuation">;</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+  <span class="token property">flex-direction</span><span class="token punctuation">:</span> column<span class="token punctuation">;</span>
+  <span class="token property">justify-content</span><span class="token punctuation">:</span> space-between<span class="token punctuation">;</span>
+  <span class="token property">animation</span><span class="token punctuation">:</span> spinner-fade-out 1s linear infinite<span class="token punctuation">;</span>
+  <span class="token property">z-index</span><span class="token punctuation">:</span> 999<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li></ul></div> <!----> <!----> </div></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/tms-style-guide/assets/js/app.5eb1428a.js" defer></script><script src="/tms-style-guide/assets/js/2.ddf7138d.js" defer></script><script src="/tms-style-guide/assets/js/8.629c56f3.js" defer></script><script src="/tms-style-guide/assets/js/5.cada48df.js" defer></script>
+  </body>
+</html>
